@@ -4,8 +4,10 @@ int main() {
  int mark[5] = {19, 10, 8, 17, 9};
  // 4. elemani 9 olarak degistir
  mark[3] = 9;
+ 
  // kullanicidan girdi al
  // degeri ucuncu konumda sakla
+ 
  cin >> mark[2];
   int length = sizeof(mark) / sizeof(mark[0]);
     cout << "Dizinin uzunluðu: " << length << endl;
